@@ -1,0 +1,159 @@
+/* Media Querries */
+@media only screen and (max-width: 1054px) {
+	.item2 {
+		display: none;
+		position: absolute;
+		top: 16;
+		right: 28;
+		background-color: snow!important;
+		padding: 8px;
+		border-radius: 4px;
+	}
+	#menu-icon {
+		display: block!important;
+	}
+	#menu-icon:hover {
+		cursor: pointer;
+	}
+}
+@media only screen and (max-width: 550px) {
+	header .big {
+		font-size: 20px!important;
+	}
+	header h4 {
+		font-size: 14px!important;
+	}
+	header .small {
+		font-size: 10px!important;
+	}
+}
+
+/* Full Page */
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+.container {
+	max-width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.head {
+	font-weight: bold;
+	font-size: 28px;
+}
+section {
+	padding: 28px;
+}
+hr {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+/* Header Styling */
+header {
+	background-color: #374457;
+	color: white;
+	border-bottom: 4px solid darkred;
+}
+/* Header grid styling */
+.grid {
+	display: grid;
+	grid-template-areas: 'headerleft headerleft headerleft headerleft headerright';
+	grid-gap: 24px;
+	padding: 16px;
+}
+.item1 {
+	grid-area: headerleft;
+	display: flex;
+	justify-content: center;
+ 	align-items: center;
+}
+.bio {
+	margin-left: 24px;
+}
+header .big {
+	font-size: 28px;
+	font-weight: bold;
+	color: tomato;
+}
+header .small {
+	font-size: 16px;
+	font-weight: 500;
+	color: lightgrey;
+}
+.item1 img {
+	height: 120px;
+	border-radius: 100%;
+	border: 3px solid coral;
+}
+.item2 {
+	grid-area: headerright;
+	margin-right: 28px;
+	margin-left: 16px;
+}
+.contact {
+	display: flex;
+ 	align-items: center;
+}
+.contact a {
+	color: tomato;
+	font-weight: 500;
+	text-decoration: none;
+	margin-right: 8px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.contact a:hover {
+	text-decoration: underline;
+}
+.contact h4 {
+	color: tomato;
+	font-weight: 500;
+	text-decoration: none;
+	margin-right: 8px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+#menu-icon {
+	height: 16px;
+	display: none;
+}
+
+/* My skills getting styled */
+.skills {
+	background-color: #17c2a4;
+	color: white;
+	text-align: center;
+	border-bottom: 2px solid white;
+}
+.skills hr {
+	border: 2px solid lightgrey;
+	border-radius: 80px;
+}
+/* Blurbs */
+.blurb-row {
+	margin-top: 40px;
+}
+.blurb {
+	width: 30%;
+	text-align: center;
+	display: inline-table;
+	margin-top: 16px;
+}
+.blurb img {
+	height: 88px;
+}
+
+/* Education part styling. */
+.education {
+	text-align: left;
+	margin-left: 24px;
+}
+.education h4, h5, h6 {
+	margin: 0px;
+}
+.education h6 {
+	font-weight: normal;
+}

@@ -1,0 +1,141 @@
+<html>
+	<head>
+		<title>Resume | Himanshu Gulia</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<header>
+			<div class="grid">
+				<div class="item1">
+					<img src="img/me.jpg" alt="Profile Pic">
+					<div class="bio">
+						<span class="big">Hello I'm Himanshu Gulia</span>
+						<h4 style="margin: 0px">Front-end and Web Developer</h4>
+						<hr style="margin-left: -8px">
+						<span class="small">I'm a web developer and UI/UX designer. Creative work is fun and interesting to me, be it web, mobile or windows applications or even just normal websites, I just want to pour myself into it and do my best to make good and professional looking websites and applications.</span>
+					</div>
+				</div>
+				<div id="item2" class="item2">
+					<div class="contact">
+						<a href="https://www.linkedin.com/in/worth65" target="_blank">Reach me on LinkedIn</a>
+						<img src="img/linedin.png">
+					</div>
+					<div class="contact">
+						<h4>guliahimo11@gmail.com</h4>
+						<img src="img/mail.png">
+					</div>
+					<div class="contact">
+						<h4>+91 88260 11453</h4>
+						<img src="img/phone.png">
+					</div>
+					<div class="contact">
+						<h4>Delhi, India</h4>
+						<img src="img/location.png">
+					</div>
+				</div>
+		 	 <!-- Adding the Hamburger icon -->
+    			<img src="img/menu.png" onclick="togglemenu();" id="menu-icon" alt="Menu icon">
+			</div>
+		</header>
+		<main>
+			<section class="skills">
+				<div class="container">
+					<div class="head">
+						Skills I've learned.<hr>
+					</div>
+					<h5 style="margin: 0px;">These are the tools I've to help me in my work.</h5>
+					<div class="blurb-row">
+						<div class="blurb">
+							<img src="img/html.png">
+							<h3>HTML</h3>
+							<p>Every single webpage requires this awesome markup language.</p>
+						</div>
+						<div class="blurb">
+							<img src="img/css.png">
+							<h3>CSS</h3>
+							<p>Required to stylise bland and plain HTML documents.</p>
+						</div>
+						<div class="blurb">
+							<img src="img/js.png">
+							<h3>JavaScript</h3>
+							<p>Awesome Programming language to make interactive webpages.</p>
+						</div>	
+						<div class="blurb">
+							<img src="img/xd.png">
+							<h3>Adobe Xd</h3>
+							<p>Amazing software to design and prototype any application or webpage.</p>
+						</div>
+						<div class="blurb">
+							<img src="img/ps.png">
+							<h3>Photoshop cc</h3>
+							<p>Some basic photo editing and cutouts etc. are essential for front-end.</p>
+						</div>
+						<div class="blurb">
+							<img src="img/github.png">
+							<h3>Git & Github</h3>
+							<p>Awesome tools for version control that make it easier for a team or an individual to work on a project.</p>
+						</div>
+					</div>
+					<div class="head" style="margin-top: 56px">
+						Some Projects.<hr>
+					</div>
+					<h5 style="margin: 0px;">These are some projects I used to acquire a new skill or practice an existing one.</h5>
+					<div class="blurb-row">
+						<div class="blurb">
+							<a href="https://worth65.github.io/First_Website/" target="_blank"><img src="img/first.png"></a>
+							<h3>My First Website</h3>
+							<p>This is where I started my HTML, CSS journey.</p>
+						</div>
+						<div class="blurb">
+							<a href="https://worth65.github.io/lander-mockup/" target="_blank"><img src="img/lander.png"></a>
+							<h3>First Lander</h3>
+							<p>A simple landing page mock-up.</p>
+						</div>
+						<div class="blurb">
+							<a href="https://worth65.github.io/First_Responsive/" target="_blank"><img src="img/cuda.png"></a>
+							<h3>First Responsive</h3>
+							<p>My first website to use media queries and responsive design.</p>
+						</div>	
+						<div class="blurb">
+							<a href="https://worth65.github.io/Clock/" target="_blank"><img src="img/clock.png"></a>
+							<h3>Clock Screensaver</h3>
+							<p>A simple time and date design I made to practice some JavaScript.</p>
+						</div>
+						<div class="blurb">
+							<a href="https://worth65.github.io/CSI-MSI-Website-v2.0/" target="_blank"><img src="img/CSI.png"></a>
+							<h3>Our college's CSI website</h3>
+							<p>A website I Designed and helped developed in my college.</p>
+						</div>
+					</div>
+					<div class="head" style="margin-top: 56px">
+						Education.<hr>
+					</div>
+					<h5 style="margin: 0px;">My past and present Educational records.</h5><br>
+					<div class="education">
+						<h4>School - Rao Man Singh Sr. Sec. Public School.</h4><br>
+						<h5>10th - 9.2 CGPA.</h5>
+						<h5>12th - 81.6%.</h5><br>
+						<h6>2006-2017</h6><br>
+						<h4>College - Maharaja Surajmal Institute, Janakpuri.</h4><br>
+						<h6>2018-Present</h6>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- JS Scripts -->
+		<script>
+			function togglemenu() {
+				var x = document.getElementById("item2");
+				if (x.style.display === "block") {
+					x.style.display = "none";
+				}
+				else {
+					x.style.display = "block";
+				}
+			} 
+		</script>
+	</body>
+</html>
